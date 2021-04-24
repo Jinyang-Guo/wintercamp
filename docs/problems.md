@@ -7,10 +7,12 @@
 1.Fast Fourier transform 
 
   > Fast Fourier transform is an algorithm that computes the discrete Fourier transform (DFT) of a sequence, or its inverse (IDFT). FFT rapidly computes transformations by factorizing the DFT matrix into a product of sparse (mostly zero) factors.
+
   > [**Source code**](https://github.com/xupsh/CCC2021/tree/main/docs/fft_blank)
 
 2.Sobel Filter
   > Sobel filter is widely used in image processing and computer vision, particularly within edge detection algorithms where it creates an image emphasising edges. Discrete differentiation operator computes an approximation of the gradient of the image intensity function.
+ 
   > [**Source code**](https://github.com/xupsh/CCC2021/tree/main/docs/sobel_blank)
 
 ### 中级题
