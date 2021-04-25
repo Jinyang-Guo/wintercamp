@@ -2,7 +2,8 @@
 ![](./images/cover.jpg)
 
 ## **1. 报名规则**: 
-+ 每队不超过2人，可跨单位组建  
++ 每队**不超过2人**，可跨单位组建
++   
 <a href="index.html"><font size="6" ><strong>点击报名</strong></font></a>
   
 ## **2.挑战规则**
