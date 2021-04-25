@@ -14,7 +14,7 @@ Customized Computing Challenge 2021(CCC2021 定制计算算法实现挑战赛)�
 
 **主办单位**： CCF计算机体系结构专委会
 
-**承办单位**： 北京大学CECA, Xilinx学术合作部
+**承办单位**： 北京大学高能效计算与应用中心（CECA）, Xilinx学术合作部
 
 ## 竞赛流程
 
