@@ -19,6 +19,7 @@ CCC2021决赛将于2021年8月21日与CCF TCARCH Advanced Parallel Processing Te
 **主办单位**： CCF计算机体系结构专委会
 
 **承办单位**： 北京大学高能效计算与应用中心（CECA）, Xilinx学术合作部
+**协办单位**： 北大信息技术高等研究院
 
 ## 竞赛流程
 
