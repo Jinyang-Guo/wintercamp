@@ -1,8 +1,9 @@
 # 比赛题目
+**2021年4月28日发布题目**
 
 ## **初赛题目**
 
-### 初级题
+### 初级题 （示例，非最终)
 
 1.Fast Fourier transform 
 
@@ -15,7 +16,7 @@
   >
   > [**Source code**](https://github.com/xupsh/CCC2021/tree/main/sobel)
 
-### 中级题
+### 中级题 （示例，非最终)
 
 1.Training of Random Forest Model  
 
@@ -34,7 +35,7 @@
   >[**Source code**](https://github.com/Xilinx/Vitis_Libraries/tree/master/data_analytics/L2/tests/text/reEngine)
 
 
-### 高级题3个
+### 高级题3个（示例，非最终）
 
 - Minimum Spanning Tree  
   > A minimum spanning tree is a subset of the edges of a weighted graph that connects all the vertices together. without any cycles and with the minimum possible total weight.
@@ -49,34 +50,6 @@
 
 
 <!--
-
-## **决赛题目**
-
-### 中级题3选一
-
-- Training of Decision Tree Model
-  >Decision Tree (Classification/Regression) is a model to predict sample’s classification or regression value.  
-  >[Source code](https://github.com/Xilinx/Vitis_Libraries/tree/master/data_analytics/L2/tests/classification/decisiontree)
-
-- Training of kMeans Model
-  >Fits new centers based native k-means using the existed samples and initial centers provide by user.  
-  >[Source code](https://github.com/Xilinx/Vitis_Libraries/tree/master/data_analytics/L2/tests/clustering/kmeans)
-
-- CSR/CSC Converter
-  >The CSR/CSC converter function tries to convert a sparse matrix from the compressed sparse column (CSC) format to the compressed sparse row (CSR) format.  
-  >[Source code](https://github.com/Xilinx/Vitis_Libraries/tree/master/graph/L2/tests/convert_csc_csr)
-
-### 高级题3选一
-
-- Random Walk
-  >A random walk means that we start at one vertex, choose a neighbor to navigate to at random or based on a provided probability distribution, and then do the same from that vertex, keeping the resulting path in a list.
-
-- Closeness Centrality
-  >Calculate the closeness centrality of a given vertex. The closeness centrality of a vertex measures its average farness (inverse distance) to all other vertices. Vertices with a high closeness score have the shortest distances to all other vertices.
-
-- Overlap Similarity
-  >Calculate the overlap similarity of two vertices in a graph. The overlap similarity is computed using the following formula
-  >![](./images/quentions_image1.png)
 
 !-->  
 
