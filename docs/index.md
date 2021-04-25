@@ -1,6 +1,6 @@
 <!--# CCF TCARCH- Customized Computing Challenge 2021 !-->
 
-![](./images/cover_new2.jpg)
+![](./images/cover_new2.JPG)
 
 CCF TCARCH- 计算机体系结构挑战赛是中国计算机学会体系结构专委会所举办的旨在挖掘计算机体系结构人才、激发学生对计算机体系结构的研究兴趣、培养学生创新精神的一项全国赛事。
 
