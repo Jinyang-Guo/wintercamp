@@ -27,6 +27,6 @@ Customized Computing Challenge 2021(CCC2021 定制计算算法实现挑战赛)�
 <a href="index.html"><font size="5" ><strong>点击报名</strong></font></a>
 
 # 赛事特点
-+ 采用积分闯关制度，只有完成初级和中级后才能解锁高级
++ 采用积分闯关制度，只有成功完成初级和中级的提交后才能解锁高级题目的详情和提交
 
 ![](./images/feature_1.png)
