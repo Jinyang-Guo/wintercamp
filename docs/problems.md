@@ -9,12 +9,12 @@
 
   > Fast Fourier transform is an algorithm that computes the discrete Fourier transform (DFT) of a sequence, or its inverse (IDFT). FFT rapidly computes transformations by factorizing the DFT matrix into a product of sparse (mostly zero) factors.
   >
-  > [**Source code**](https://github.com/xupsh/CCC2021/tree/main/fft)
+  > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/fft)
 
 2.Sobel Filter
   > Sobel filter is widely used in image processing and computer vision, particularly within edge detection algorithms where it creates an image emphasising edges. Discrete differentiation operator computes an approximation of the gradient of the image intensity function.
   >
-  > [**Source code**](https://github.com/xupsh/CCC2021/tree/main/sobel)
+  > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/sobel)
 
 ### 中级题 （已有参考代码的优化，示例，非最终)
 
@@ -22,17 +22,17 @@
 
   > Elliptic Curve Digital Signature Algorithm (ECDSA) is a variant of Digital Signature Algorithm which utilize elliptic curve cryptography.   
   > 
-  > [**Source code**](https://github.com/Xilinx/Vitis_Libraries/blob/master/security/L1/tests/ecdsa_sign/test.cpp)
+  > [**Details**](https://github.com/Xilinx/Vitis_Libraries/blob/master/security/L1/tests/ecdsa_sign/test.cpp)
 
 2.Prediction of SVM Model
   > SVM (Support Vector Machine) is a deep learning model to predict sample’s classification. Give an already trained SVM model, implement the associated prediction.
   >   
-  > [**Source code**](https://github.com/Xilinx/Vitis_Libraries/blob/master/data_analytics/L1/tests/classification/svm_predict/test.cpp)
+  > [**Details**](https://github.com/Xilinx/Vitis_Libraries/blob/master/data_analytics/L1/tests/classification/svm_predict/test.cpp)
 
 3.Sort
   > Sort a list of input integers into a specific sequence (increase or decrease).
   > 
-  > [**Source code**](https://github.com/Xilinx/Vitis_Libraries/blob/master/database/L1/tests/hw/insert_sort/insert_sort_test.cpp)
+  > [**Details**](https://github.com/Xilinx/Vitis_Libraries/blob/master/database/L1/tests/hw/insert_sort/insert_sort_test.cpp)
 
 
 ### 高级题3个（未有参考HLS实现，示例，非最终）
