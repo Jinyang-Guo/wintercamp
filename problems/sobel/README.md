@@ -1,4 +1,14 @@
-- **索贝尔滤波器（Sobel Filter）**
+## Repository Tree
+```
+.
+├── sobel.cpp          //源码框架
+├── sobel.h            //头文件
+├── sobel_test.cpp     //测试源码
+├── out.gold.dat     //标准输出
+├── tcl_script.tcl   //tcl文件
+└── README.md        //说明文件
+```
+## 索贝尔滤波器（Sobel Filter）
 
   1）	框架代码说明
   >您可以直接在框架代码中“//Insert your code here”处实现算法基本功能，也可以根据您的设计对其适当的修改。  
