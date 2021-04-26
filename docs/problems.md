@@ -3,7 +3,7 @@
 
 ## **初赛题目**
 
-### 初级题 （示例，非最终)
+### 初级题 （基本算子单元的实现，示例，非最终)
 
 1.Fast Fourier transform 
 
@@ -16,7 +16,7 @@
   >
   > [**Source code**](https://github.com/xupsh/CCC2021/tree/main/sobel)
 
-### 中级题 （示例，非最终)
+### 中级题 （已有参考代码的优化，示例，非最终)
 
 1.Training of Random Forest Model  
 
@@ -35,7 +35,7 @@
   >[**Source code**](https://github.com/Xilinx/Vitis_Libraries/tree/master/data_analytics/L2/tests/text/reEngine)
 
 
-### 高级题3个（示例，非最终）
+### 高级题3个（未有参考HLS实现，示例，非最终）
 
 - Minimum Spanning Tree  
   > A minimum spanning tree is a subset of the edges of a weighted graph that connects all the vertices together. without any cycles and with the minimum possible total weight.
