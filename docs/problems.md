@@ -18,21 +18,21 @@
 
 ### 中级题 （已有参考代码的优化，示例，非最终)
 
-1.Training of Random Forest Model  
+1.Sign of curve Secp256k1, Elliptic Curve Digital Signature Algorithm  
 
-  > Random forest is an ensemble learning method that consisting a multitude of decision trees at training time and outputting the mode of the classes (classification) or mean prediction (regression) of the trees.  
+  > Elliptic Curve Digital Signature Algorithm (ECDSA) is a variant of Digital Signature Algorithm which utilize elliptic curve cryptography.   
   > 
-  >[**Source code**](https://github.com/Xilinx/Vitis_Libraries/tree/master/data_analytics/L2/tests/classification/randomforest)
+  > [**Source code**](https://github.com/Xilinx/Vitis_Libraries/blob/master/security/L1/tests/ecdsa_sign/test.cpp)
 
-2.Training of SVM Model
-  > SVM (Support Vector Machine) is a model to predict sample’s classification. The svm_train function that trains a batch of samples using support vector machine model and output a weight vector for classification.
+2.Prediction of SVM Model
+  > SVM (Support Vector Machine) is a deep learning model to predict sample’s classification. Give an already trained SVM model, implement the associated prediction.
   >   
-  >[**Source code**](https://github.com/Xilinx/Vitis_Libraries/tree/master/data_analytics/L2/tests/classification/svm)
+  > [**Source code**](https://github.com/Xilinx/Vitis_Libraries/blob/master/data_analytics/L1/tests/classification/svm_predict/test.cpp)
 
-3.Regular Expression Engine
-  > The regex-VM aims at the work of converting unstructured texts, like log files, into structured ones.
+3.Sort
+  > Sort a list of input integers into a specific sequence (increase or decrease).
   > 
-  >[**Source code**](https://github.com/Xilinx/Vitis_Libraries/tree/master/data_analytics/L2/tests/text/reEngine)
+  > [**Source code**](https://github.com/Xilinx/Vitis_Libraries/blob/master/database/L1/tests/hw/insert_sort/insert_sort_test.cpp)
 
 
 ### 高级题3个（未有参考HLS实现，示例，非最终）
@@ -46,7 +46,7 @@
   > - To use as few colors as possible.
 
 - Estimated Diameter
-  >The diameter of a graph is the greatest distance between any pair of vertices. The estimated diameter problem tries to find a distance that is close to the graph diameter as much as possible.
+  > The diameter of a graph is the greatest distance between any pair of vertices. The estimated diameter problem tries to find a distance that is close to the graph diameter as much as possible.
 
 
 <!--
