@@ -24,7 +24,7 @@ Customized Computing Challenge 2021(CCC2021 定制计算算法实现挑战赛)�
 
 8月21日左右  杭州，APPT会议现场 决赛和颁奖
 
-<a href="https://github.com/xupsh/ccc2021/tree/main/docs"><font size="5" ><strong>点击报名</strong></font></a>
+<a href="https://xupsh.github.io/ccc2021/upload.html"><font size="5" ><strong>点击报名</strong></font></a>
 
 # 赛事特点
 + 采用积分闯关制度，只有成功完成初级和中级的提交后才能解锁高级题目的详情和提交
