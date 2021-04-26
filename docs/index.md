@@ -11,7 +11,7 @@ CCC2021决赛将于2021年8月21日与CCF TCARCH Advanced Parallel Processing Te
 
 **注：2021年4月28日开放报名和发布**
 
-<a href="index.html"><font size="6" ><strong>点击报名</strong></font></a>
+<a href="https://xupsh.github.io/ccc2021/upload.html"><font size="6" ><strong>点击报名</strong></font></a>
 
 
 ## 竞赛组织
