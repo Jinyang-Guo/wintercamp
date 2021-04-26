@@ -22,17 +22,17 @@
 
   > Elliptic Curve Digital Signature Algorithm (ECDSA) is a variant of Digital Signature Algorithm which utilize elliptic curve cryptography.   
   > 
-  > [**Details**](https://github.com/Xilinx/Vitis_Libraries/blob/master/security/L1/tests/ecdsa_sign/test.cpp)
+  > [**Details**](https://github.com/xupsh/ccc2021/tree/main/problems/ecdsa)
 
 2.Prediction of SVM Model
   > SVM (Support Vector Machine) is a deep learning model to predict sample’s classification. Give an already trained SVM model, implement the associated prediction.
   >   
-  > [**Details**](https://github.com/Xilinx/Vitis_Libraries/blob/master/data_analytics/L1/tests/classification/svm_predict/test.cpp)
+  > [**Details**](https://github.com/xupsh/ccc2021/tree/main/problems/svm)
 
 3.Sort
   > Sort a list of input integers into a specific sequence (increase or decrease).
   > 
-  > [**Details**](https://github.com/Xilinx/Vitis_Libraries/blob/master/database/L1/tests/hw/insert_sort/insert_sort_test.cpp)
+  > [**Details**](https://github.com/xupsh/ccc2021/tree/main/problems/sort)
 
 
 ### 高级题3个（未有参考HLS实现，示例，非最终）
