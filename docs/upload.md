@@ -14,7 +14,7 @@
 >
 >
 >
-![](./images/up1.png)
+![](./images/up.png)
 >
 >
 >
