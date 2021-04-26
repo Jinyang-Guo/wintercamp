@@ -8,7 +8,7 @@
 
 ## 1.报名注册
 
->注册入口：[http://ccc2021.rieslab.cn:8008/](http://ccc2021.rieslab.cn:8008/)<br>
+>[点击注册](http://ccc2021.rieslab.cn:8008/)<br>
 >请点击导航栏右上角注册按钮，如下图所示
 >
 >
