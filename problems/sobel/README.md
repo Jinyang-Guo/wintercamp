@@ -1,10 +1,11 @@
 ## Repository Tree
 ```
 .
-├── sobel.cpp          //源码框架
-├── sobel.h            //头文件
-├── sobel_test.cpp     //测试源码
-├── out.gold.dat     //标准输出
+├── sobel.cpp        //源码框架
+├── sobel.h          //头文件
+├── sobel_test.cpp   //测试源码
+├── data.txt         //测试输入
+├── dst.txt          //标准输出
 ├── tcl_script.tcl   //tcl文件
 └── README.md        //说明文件
 ```
@@ -12,8 +13,7 @@
 
   1）	框架代码说明
   >您可以直接在框架代码中“//Insert your code here”处实现算法基本功能，也可以根据您的设计对其适当的修改。  
-  >但请注意：  
-  >**您必须保持顶层函数“void sobel(PIXEL* src, PIXEL* dst, int rows, int cols)”不变。**
+  >但请注意：**您必须保持顶层函数“void sobel(PIXEL* src, PIXEL* dst, int rows, int cols)”不变。**
 
   2）项目要求  
   >在本项目中，输入的图像已经被转化为了一个大小为720\*1280的1D array **src**。**Sobel Filter统一不做padding**，这样经过滤波后得到的输出**dst**是一个大小为718\*1278的1D array。在滤波过程中，框架代码sobel3x3_kernel函数中使用了3*3的kernel：  
