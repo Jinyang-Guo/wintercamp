@@ -3,7 +3,7 @@
 
 ## **初赛题目**
 
-### 初级题 （基本算子单元的实现，示例，非最终)
+### 初级题 （基本算子单元的实现)
 
 1.Fast Fourier transform 
 
@@ -16,7 +16,7 @@
   >
   > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/sobel)
 
-### 中级题 （已有参考代码的优化，示例，非最终)
+### 中级题 （已有参考代码的优化)
 
 1.Sign of curve Secp256k1, Elliptic Curve Digital Signature Algorithm  
 
