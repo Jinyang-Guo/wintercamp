@@ -16,7 +16,7 @@
 
 source settings.tcl
 
-set PROJ "insert_sort.prj"
+set PROJ "svm_predict_test.prj"
 set SOLN "solution1"
 
 if {![info exists CLKP]} {
@@ -25,9 +25,9 @@ if {![info exists CLKP]} {
 
 open_project -reset $PROJ
 
-add_files "insert_sort_test.cpp" -cflags "-I${XF_PROJ_ROOT}/L1/include/hw"
-add_files -tb "insert_sort_test.cpp" -cflags "-I${XF_PROJ_ROOT}/L1/include/hw"
-set_top hls_db_insert_sort_function
+add_files "test.cpp" -cflags "-I${XF_PROJ_ROOT}/L1/include/hw -I./"
+add_files -tb "test.cpp 1000.csv" -cflags "-I${XF_PROJ_ROOT}/L1/include/hw"
+set_top dut
 
 open_solution -reset $SOLN
 
