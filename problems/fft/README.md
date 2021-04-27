@@ -25,7 +25,7 @@
 
 
   3）提交程序
-  >您仅需提交fft.cpp，fft.h和tcl_script.tcl文件。请将fft.cpp，fft.h和tcl_script.tcl文件压缩为一个压缩包fft.zip，在题目的提交窗口点击文本框上方“上传文件”按钮进行提交，稍待片刻即可在文本框下方得知您的设计是否通过了基本功能测试。延迟、面积等性能指标则可在历史提交记录中点击版本号详细查看。
+  >您仅需提交fft.cpp，fft.h和tcl_script.tcl文件。请将fft.cpp，fft.h和tcl_script.tcl文件压缩为一个压缩包fft.zip，在页面下方您的解答处点击“上传代码”按钮进行提交，稍待片刻即可在文本框下方得知您的设计是否通过了基本功能测试。延迟、面积等性能指标则可在历史提交记录中点击版本号详细查看。
   
   4）评分规则
   >性能公式为：(RTL simulation time/clock period)/Minimum(300MHz, fmax)
