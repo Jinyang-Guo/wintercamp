@@ -35,7 +35,7 @@
   > [**Details**](https://github.com/xupsh/ccc2021/tree/main/problems/sort)
 
 
-### 高级题 3题选1（未有参考HLS实现，5月15日后发布评测细节）
+### 高级题 3题选1（不提供参考代码，5月15日后发布评测细节）
 
 - Minimum Spanning Tree  
   > A minimum spanning tree is a subset of the edges of a weighted graph that connects all the vertices together. without any cycles and with the minimum possible total weight.
