@@ -25,8 +25,8 @@
 #include <ap_int.h>
 #include <hls_math.h>
 #include <hls_stream.h>
-#include "xf_data_analytics/common/table_sample.hpp"
-#include "xf_data_analytics/common/stream_local_processing.hpp"
+#include "table_sample.hpp"
+#include "stream_local_processing.hpp"
 
 double funcA(double op1, double op2) {
     return (op1 * op2);

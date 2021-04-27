@@ -14,7 +14,10 @@
 # limitations under the License.
 #
 
-source settings.tcl
+set XPART xcu50-fsvh2104-2-e
+set CSIM 1
+set CSYNTH 1
+set COSIM 1
 
 set PROJ "insert_sort.prj"
 set SOLN "solution1"
@@ -25,8 +28,8 @@ if {![info exists CLKP]} {
 
 open_project -reset $PROJ
 
-add_files "insert_sort_test.cpp" -cflags "-I${XF_PROJ_ROOT}/L1/include/hw"
-add_files -tb "insert_sort_test.cpp" -cflags "-I${XF_PROJ_ROOT}/L1/include/hw"
+add_files "insert_sort_test.cpp" -cflags "-I."
+add_files -tb "insert_sort_test.cpp" -cflags "-I."
 set_top hls_db_insert_sort_function
 
 open_solution -reset $SOLN
@@ -47,14 +50,6 @@ if {$CSYNTH == 1} {
 
 if {$COSIM == 1} {
   cosim_design
-}
-
-if {$VIVADO_SYN == 1} {
-  export_design -flow syn -rtl verilog
-}
-
-if {$VIVADO_IMPL == 1} {
-  export_design -flow impl -rtl verilog
 }
 
 exit
