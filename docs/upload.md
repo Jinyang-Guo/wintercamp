@@ -1,14 +1,14 @@
 
 # 作品提交
 
-&nbsp;&nbsp;&nbsp;&nbsp;**2021年4月28日开放注册报名通道**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2021年4月28日开放注册报名通道**
 >请先注册
 >
 >注: 每队每天每题最多三次提交机会
 
 ## 1.报名注册
 
-&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://ccc2021.rieslab.cn:8008/"><font size="6" ><strong>点击注册</strong></font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://ccc2021.rieslab.cn:8008/"><font size="6" ><strong>点击注册</strong></font></a>
 <br>
 >请点击导航栏右上角注册按钮，如下图所示
 >
@@ -29,9 +29,9 @@
 
 <!--## 作品提交的入口如下：-->
 
-&nbsp;&nbsp;&nbsp;&nbsp;**2021年5月15日开放作品提交通道**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2021年5月15日开放作品提交通道**
 
-&nbsp;&nbsp;&nbsp;&nbsp;**2021年6月21日关闭作品提交通道**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2021年6月21日关闭作品提交通道**
 
 >1.点击页面左上方“比赛”按钮，在下方全部比赛中点击“CCC2021-初赛”。<br>
 >2.点击界面左侧“题目”按钮，在题目列表中选择您想提交的题目。<br>
