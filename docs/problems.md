@@ -37,15 +37,15 @@
 
 ### 高级题 3题选1（不提供参考代码，5月15日后发布评测细节）
 
-- Minimum Spanning Tree  
+1.Minimum Spanning Tree  
   > A minimum spanning tree is a subset of the edges of a weighted graph that connects all the vertices together. without any cycles and with the minimum possible total weight.
 
-- K-1 Coloring
+2.K-1 Coloring
   >The K-1 Coloring algorithm assigns a color to every node in the graph, trying to optimize for two objectives:  
   > - To make sure that every neighbor of a given node has a different color than the node itself. 
   > - To use as few colors as possible.
 
-- Estimated Diameter
+3.Estimated Diameter
   > The diameter of a graph is the greatest distance between any pair of vertices. The estimated diameter problem tries to find a distance that is close to the graph diameter as much as possible.
 
 
