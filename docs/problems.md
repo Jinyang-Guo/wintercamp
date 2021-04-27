@@ -3,7 +3,7 @@
 
 ## **初赛题目**
 
-### 初级题 （基本算子单元的实现)
+### 初级题 2题必做 （基本算子单元的实现)
 
 1.Fast Fourier transform 
 
@@ -16,7 +16,7 @@
   >
   > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/sobel)
 
-### 中级题 （已有参考代码的优化)
+### 中级题 3题选2 （已有参考代码的优化)
 
 1.Sign of curve Secp256k1, Elliptic Curve Digital Signature Algorithm  
 
@@ -35,7 +35,7 @@
   > [**Details**](https://github.com/xupsh/ccc2021/tree/main/problems/sort)
 
 
-### 高级题3个（未有参考HLS实现，示例，非最终）
+### 高级题 3题选1（未有参考HLS实现，5月15日后发布评测细节）
 
 - Minimum Spanning Tree  
   > A minimum spanning tree is a subset of the edges of a weighted graph that connects all the vertices together. without any cycles and with the minimum possible total weight.
