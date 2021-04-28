@@ -13,7 +13,7 @@
 
   1）	框架代码说明
   >您可以直接在框架代码中“//Insert your code here”处实现算法基本功能，也可以根据您的设计对其适当的修改。  
-  >但请注意：**您必须保持顶层函数“void sobel(PIXEL* src, PIXEL* dst, int rows, int cols)”不变。**
+  >但请注意：**您必须保持sobel.cpp,sobel.h,tcl_script.tcl的文件名，以及顶层函数“void sobel(PIXEL* src, PIXEL* dst, int rows, int cols)”不变。**
 
   2）项目要求  
   >在本项目中，输入的图像已经被转化为了一个大小为720\*1280的1D array **src**。**Sobel Filter统一不做padding**，这样经过滤波后得到的输出**dst**是一个大小为718\*1278的1D array。在滤波过程中，框架代码sobel3x3_kernel函数中使用了3*3的kernel：  
@@ -23,7 +23,7 @@
   >在设计完成后，您可以使用我们提供的sobel_test.cpp文件进行基本功能测试。**在HLS优化的过程中，请务必将优化指令设置为pragma写入c++代码中。**
 	
   3）提交程序
-  >您仅需提交fft.cpp和fft.h文件。请将fft.cpp和fft.h文件压缩为一个压缩包fft.zip，在页面下方您的解答处点击“上传代码”按钮进行提交，稍待片刻即可在文本框下方得知您的设计是否通过了基本功能测试。延迟、面积等性能指标则可在历史提交记录中点击版本号详细查看。
+  >您仅需提交cpp文件,h文件和tcl_script.tcl文件。请将所有cpp文件，h文件和tcl_script.tcl文件压缩为一个压缩包soebl.zip，在页面下方您的解答处点击“上传代码”按钮进行提交，稍待片刻即可在文本框下方得知您的设计是否通过了基本功能测试。延迟、面积等性能指标则可在历史提交记录中点击版本号详细查看。
   
   4）评分规则
   >性能公式为：(RTL simulation time/clock period)/Minimum(300MHz, fmax)
