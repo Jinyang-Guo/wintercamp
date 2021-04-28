@@ -30,7 +30,9 @@ A3：每题排名自第1名积分为100分起，积分逐渐随名次减少，�
 <br/>
 Q4：竞赛规定的软件和硬件平台是什么？可以使用Vivado HLS软件吗？
 <br/>
-A4：竞赛评分系统采用Vitis HLS软件，如果使用Vivado HLS则可能无法通过竞赛评分系统的仿真，影响竞赛成绩。因此，您需要将Vivado HLS的pragma适当修改，具体修改方式请参考[**Vitis HLS教程**](https://www.xilinx.com/html_docs/xilinx2020_2/vitis_doc/hjv1582730488418.html)。竞赛的硬件平台是Xilinx的U50开发板。
+A4：竞赛评分系统采用Vitis HLS软件，如果使用Vivado HLS则有可能不完全兼容，无法通过竞赛评分系统的仿真，影响竞赛成绩。因此，您需要将Vivado HLS的pragma适当修改，具体修改方式请参考[**Vitis HLS教程**](https://www.xilinx.com/html_docs/xilinx2020_2/vitis_doc/hjv1582730488418.html)。
+
+竞赛的目标器件硬件平台是Alveo U50平台， 但比赛中不需要生成最终bit文件，仅考察算法实现功能和综合报告的性能，能完成co-sim即可，因为不需要参赛队伍配备硬件平台。
 <br/>
 <br/>
 Q5：参赛作品是否可以有一部分设计模块是RTL代码？
