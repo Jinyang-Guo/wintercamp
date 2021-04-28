@@ -22,7 +22,7 @@ Customized Computing Challenge 2021(CCC2021 定制计算算法实现挑战赛)�
 
 7月19日左右  发布决赛评审细节
 
-8月21日左右  杭州，APPT会议现场 决赛和颁奖
+8月21日左右  杭州，APPT会议现场 决赛和颁奖(如有特殊情况亦可在线参加) 
 
 <a href="https://xupsh.github.io/ccc2021/upload.html"><font size="5" ><strong>点击报名</strong></font></a>
 
