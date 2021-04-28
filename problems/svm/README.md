@@ -14,7 +14,7 @@
   1）	框架代码说明
   >您可以直接在提供代码的基础上进行HLS优化，也可以根据您的设计对其适当的修改。  
   >但请注意：
-  >**您必须保持enums.hpp，stream_local_processing.hpp，svm_predict.hpp，table_sample.hpp，test.cpp的文件名,以及顶层函数不变。**
+  >**您必须保持enums.hpp，stream_local_processing.hpp，svm_predict.hpp，table_sample.hpp，test.cpp，run_hls.tcl的文件名,以及顶层函数不变。**
 
   2）项目要求  
   >在设计完成后，您可以使用我们提供的test.cpp文件进行基本功能测试。**在HLS优化的过程中，请务必将优化指令设置为pragma写入c++代码中。**
