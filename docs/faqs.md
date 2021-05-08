@@ -19,13 +19,13 @@ A3：每题排名自第1名积分为100分起，积分逐渐随名次减少，�
 <br/>
 例如：假设你的队伍初赛试题两题都排名第三，中级题最高的排名一个第二，一个第五，高级题排名第五，此外，你的队伍还多做了一道中级题，那应该计几分呢？
 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;初级题总计得分2*80 =160分
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;初级题总计得分2\*80 =160分
 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中级题总计得分1.1*90+1.1*70 = 176分
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中级题总计得分1.1\*90+1.1\*70 = 176分
 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高级题得1.2*70=84分
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高级题得1.2\*70=84分
 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最后，计算额外成功提交题目的加分，总分应为（160+176+84）* 103% = 432.6分
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最后，计算额外成功提交题目的加分，总分应为（160+176+84）\* 103% = 432.6分
 <br/>
 <br/>
 Q4：竞赛规定的软件和硬件平台是什么？可以使用Vivado HLS软件吗？
