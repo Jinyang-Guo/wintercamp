@@ -11,7 +11,7 @@ void val(int a[N], int b[N], int dout[N]){
 
 bool validate(int v_res[N], int v_ref[N]){
         for(int i=0; i<N; i++){
-                if(v_ref[i] != v_ref[i]) return false;
+                if(v_res[i] != v_ref[i]) return false;
         }
         return true;
 }
