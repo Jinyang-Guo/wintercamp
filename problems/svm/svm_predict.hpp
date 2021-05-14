@@ -28,16 +28,16 @@
 #include "table_sample.hpp"
 #include "stream_local_processing.hpp"
 
-double funcA(double op1, double op2) {
+inline double funcA(double op1, double op2) {
     return (op1 * op2);
 }
 
-void funcB(double& reg, double op) {
+inline void funcB(double& reg, double op) {
 #pragma HLS inline off
     reg += op;
 }
 
-double funcC(double op) {
+inline double funcC(double op) {
     return op;
 }
 

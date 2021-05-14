@@ -13,24 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include "ecdsa.hpp"
+#include <ap_int.h>
+#include "top.hpp"
 #ifndef __SYNTHESIS__
 #include <iostream>
 #endif
-
-void test(ap_uint<256> hash,
-          ap_uint<256> k,
-          ap_uint<256> privateKey,
-          ap_uint<256>& Qx,
-          ap_uint<256>& Qy,
-          ap_uint<256>& r,
-          ap_uint<256>& s,
-          bool& kValid) {
-    xf::security::ecdsaSecp256k1<256> processor;
-    processor.init();
-    processor.generatePubKey(privateKey, Qx, Qy);
-    kValid = processor.sign(hash, k, privateKey, r, s);
-}
 
 #ifndef __SYNTHESIS__
 int main() {

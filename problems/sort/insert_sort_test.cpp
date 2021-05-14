@@ -14,24 +14,7 @@
  * limitations under the License.
  */
 
-#include <vector> // std::vector
-#include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdint.h>
-#include <algorithm>
-
-#include "insert_sort.hpp"
-
-typedef uint32_t KEY_TYPE;
-typedef uint32_t DATA_TYPE;
-
-/// @brief basic sort operators
-enum InsertSortOrder { SORT_ASCENDING = 1, SORT_DESCENDING = 0 };
-
-#define MaxSortNumber 1024
-#define TestNumber 4044
-#define OP SORT_ASCENDING
+#include "top.hpp"
 
 template <typename Key_Type>
 void generate_test_data(uint64_t Number, std::vector<KEY_TYPE>& testVector) {
@@ -88,16 +71,7 @@ void reference_sort(hls::stream<Key_Type>& ref_in_strm,
     }
 }
 
-void hls_db_insert_sort_function(hls::stream<DATA_TYPE>& din_strm,
-                                 hls::stream<KEY_TYPE>& kin_strm,
-                                 hls::stream<bool>& strm_in_end,
-                                 hls::stream<DATA_TYPE>& dout_strm,
-                                 hls::stream<KEY_TYPE>& kout_strm,
-                                 hls::stream<bool>& strm_out_end,
-                                 bool sign) {
-    xf::database::insertSort<KEY_TYPE, DATA_TYPE, MaxSortNumber>(din_strm, kin_strm, strm_in_end, dout_strm, kout_strm,
-                                                                 strm_out_end, sign);
-}
+
 
 int main() {
     int i;

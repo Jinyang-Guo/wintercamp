@@ -28,7 +28,7 @@ if {![info exists CLKP]} {
 
 open_project -reset $PROJ
 
-add_files "test.cpp" -cflags "-I."
+add_files "top.cpp" -cflags "-I."
 add_files -tb "test.cpp" -cflags "-I."
 set_top test
 

@@ -197,6 +197,7 @@ class ecdsaSecp256k1 : public xf::security::ecc<256> {
     }
 };
 
+
 } // namespace security
 } // namespace xf
 

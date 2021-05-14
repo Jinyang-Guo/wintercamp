@@ -20,6 +20,9 @@
 #include <hls_stream.h>
 #include <stdint.h>
 
+typedef uint32_t KEY_TYPE;
+typedef uint32_t DATA_TYPE;
+
 namespace xf {
 namespace database {
 namespace details {

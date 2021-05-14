@@ -28,10 +28,9 @@ if {![info exists CLKP]} {
 
 open_project -reset $PROJ
 
-add_files "insert_sort_test.cpp" -cflags "-I."
+add_files "top.cpp" -cflags "-I."
 add_files -tb "insert_sort_test.cpp" -cflags "-I."
 set_top hls_db_insert_sort_function
-
 open_solution -reset $SOLN
 
 
@@ -41,7 +40,7 @@ set_part $XPART
 create_clock -period $CLKP
 
 if {$CSIM == 1} {
-  csim_design
+#  csim_design
 }
 
 if {$CSYNTH == 1} {

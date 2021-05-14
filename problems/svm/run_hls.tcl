@@ -19,6 +19,7 @@ set CSIM 1
 set CSYNTH 1
 set COSIM 1
 
+
 set PROJ "svm_predict_test.prj"
 set SOLN "solution1"
 
@@ -28,7 +29,7 @@ if {![info exists CLKP]} {
 
 open_project -reset $PROJ
 
-add_files "test.cpp" -cflags "-I./"
+add_files "top.cpp" -cflags "-I./"
 add_files -tb "test.cpp 1000.csv" -cflags "-I./"
 set_top dut
 
