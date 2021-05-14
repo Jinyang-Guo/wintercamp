@@ -11,7 +11,9 @@
 └── README.md     //说明文件
 ```
 
-## Sign of curve Secp256k1, Elliptic Curve Digital Signature Algorithm(ECDSA)  
+## Sign of curve Secp256k1, Elliptic Curve Digital Signature Algorithm(ECDSA)
+  **5月14日，我们对三道中级题的顶层模块进行了细节调整，主要是为了TB的安全性,烦请5月14日之前下载赛题的选手下载最新版本的赛题。**
+  >
   1）	框架代码说明
   >您可以直接在提供代码的基础上进行HLS优化，也可以根据您的设计对其适当的修改。  
   >但请注意：
