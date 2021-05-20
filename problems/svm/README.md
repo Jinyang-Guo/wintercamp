@@ -21,7 +21,9 @@
   >**您必须保持enums.hpp，stream_local_processing.hpp，svm_predict.hpp，table_sample.hpp的文件名,以及顶层函数不变。**
 
   2）项目要求  
-  >在设计完成后，您可以使用我们提供的test.cpp文件进行基本功能测试。**在HLS优化的过程中，请务必将优化指令设置为pragma写入c++代码中。**
+  >在设计完成后，您可以使用我们提供的test.cpp文件进行基本功能测试。但是，由于在评分时会统一使用评分系统内部的test.cpp，因此请不要将设计写在test.cpp中，test.cpp文件也无需提交。
+  
+  >**在HLS优化的过程中，请务必将优化指令设置为pragma写入c++代码中。**
   
   >比赛不需要生成最终bit文件，仅考察算法实现功能和综合报告的性能，能完成co-sim即可。
 
