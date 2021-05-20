@@ -23,7 +23,9 @@
   >**您可以在函数Gradient_X以及Gradient_Y实现具体功能，且需保证Gradient_X以及Gradient_Y的值为0到255之间的整数（如果小于0，gradient取0，如果大于255，gradient取255）。**<br>
   >**总gradient仅需将Gradient_X和Gradient_Y直接相加即可，总gradient的值也应保证是0到255之间的整数。**<br>
   >
-  >在设计完成后，您可以使用我们提供的sobel_test.cpp文件进行基本功能测试。**在HLS优化的过程中，请务必将优化指令设置为pragma写入c++代码中。**
+  >在设计完成后，您可以使用我们提供的sobel_test.cpp文件进行基本功能测试。但是，由于在评分时会统一使用评分系统内部的sobel_test.cpp，因此请不要将设计写在sobel_test.cpp中，sobel_test.cpp文件也无需提交。
+  
+  >**在HLS优化的过程中，请务必将优化指令设置为pragma写入c++代码中。**
   
   >比赛不需要生成最终bit文件，仅考察算法实现功能和综合报告的性能，能完成co-sim即可。
 	
