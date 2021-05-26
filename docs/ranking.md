@@ -11,7 +11,7 @@
 
 <font face="黑体" size = "4">成绩排名如下</font>
 
-url:   
+
 
 
 <a href="https://xupsh.github.io/ccc2021/upload.html"><font size="6" ><strong>点击报名</strong></font></a>
