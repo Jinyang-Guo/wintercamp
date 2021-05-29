@@ -95,5 +95,10 @@ Q16：初级题Sobel filter中总Gradient如何得到？
 A16：总gradient将gx和gy直接相加即可。此外，gx，gy以及总gradient均需保证是0~255之间的整数（如果小于0，gradient取0，如果大于255，gradient取255）。
 <br/>
 <br/>
+Q17：请问可以修改队伍的注册信息吗？
+<br/>
+A17：请发邮件至xup_china@xilinx.com,平台后台会进行修改。此外，如果起初注册了两个以上的账户，且均提交过，请联系我们注销，否则账户的提交将影响选手的排名。
+<br/>
+<br/>
 
 如果您在竞赛过程中遇到任何问题，请发邮件至 xup_china@xilinx.com
