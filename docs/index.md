@@ -26,7 +26,7 @@ CCC2021决赛将于2021年8月21日与CCF TCARCH Advanced Parallel Processing Te
 
 ![](./images/timeline.png)
 
-## 奖项
+## 优秀作品
 
 - 第一名 人民币现金 10,000（队员），Alveo加速卡或MPSOC板卡（指导老师）
 - 第二名 人民币现金 5,000（队员），MPSOC板卡（指导老师）
