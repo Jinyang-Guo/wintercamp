@@ -23,7 +23,7 @@ set PROJ "insert_sort.prj"
 set SOLN "solution1"
 
 if {![info exists CLKP]} {
-  set CLKP 3.33
+  set CLKP 10
 }
 
 open_project -reset $PROJ
