@@ -23,7 +23,7 @@ set PROJ "insert_sort.prj"
 set SOLN "solution1"
 
 if {![info exists CLKP]} {
-  set CLKP 10
+  set CLKP 3.33
 }
 
 open_project -reset $PROJ
@@ -40,7 +40,7 @@ set_part $XPART
 create_clock -period $CLKP
 
 if {$CSIM == 1} {
-#  csim_design
+  csim_design
 }
 
 if {$CSYNTH == 1} {
