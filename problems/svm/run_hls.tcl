@@ -24,7 +24,7 @@ set PROJ "svm_predict_test.prj"
 set SOLN "solution1"
 
 if {![info exists CLKP]} {
-  set CLKP 10
+  set CLKP 3.33
 }
 
 open_project -reset $PROJ

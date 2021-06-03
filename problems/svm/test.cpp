@@ -23,7 +23,7 @@ int main() {
     int numClass = 2;
 
     std::ifstream fin_test("1000.csv");
-    DataType* testsets = (DataType*)malloc(sizeof(DataType) * test_num * (features_num + 1));
+    double* testsets = (double*)malloc(sizeof(double) * test_num * (features_num + 1));
     ap_uint<64>* datasets = (ap_uint<64>*)malloc(sizeof(ap_uint<64>) * test_num * (features_num + 1));
     std::string line;
     int row = 0;
@@ -37,7 +37,7 @@ int main() {
             if (pos != attr_val.npos) {
                 attr_val = attr_val.substr(pos + 1);
             }
-            xf::data_analytics::common::internal::f_cast<DataType> w;
+            xf::data_analytics::common::internal::f_cast<double> w;
             w.f = (std::atof(attr_val.c_str()));
             datasets[(features_num + 1) * row + col] = w.i;
             testsets[(features_num + 1) * row + col] = (std::atof(attr_val.c_str()));
@@ -68,13 +68,13 @@ int main() {
                               0.02386278039997709,   0.012338757608139912, 0.28087785478663546,   0.4175200241772661,
                               -0.02757256316066491,  -0.3523018346852643,  -0.08882809901480027,  -0.32951255315353783};
     for (int i = 0; i < features_num; i++) {
-        xf::data_analytics::common::internal::f_cast<DataType> w;
+        xf::data_analytics::common::internal::f_cast<double> w;
         w.f = init_weight[i];
         weight[i / 8](i % 8 * 64 + 63, i % 8 * 64) = w.i;
     }
 
     // gen predict data
-    hls::stream<DataType> sample_strm[8];
+    hls::stream<double> sample_strm[8];
     hls::stream<bool> e_sample_strm;
     hls::stream<ap_uint<512> > weight_strm;
     hls::stream<bool> eTag;
