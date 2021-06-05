@@ -87,7 +87,7 @@ A14：评分系统对每一题都设置了运行时间上限，如果提交设�
 <br/>
 Q15：为什么我本地测试得到的性能和测试平台返回的性能有一定差异？
 <br/>
-A15：目前已知若选手本地将flow设置为“vitis”，而平台会将flow在测试时设置为“vivado”，因此反馈的性能会有一定差异。选手可在本地的flow设置为“vivado”，如果发现平台测试得到反馈的性能与本地测试的性能仍有很大出入，可发邮件至xup_china@xilinx.com申诉。
+A15：目前已知若选手本地将flow设置为“vitis”，而平台会将flow在测试时设置为“vivado”，因此反馈的性能会有一定差异。选手可在本地的flow设置为“vivado”，如果发现平台测试得到反馈的性能与本地测试的性能仍有很大出入，可发邮件至xup_china@xilinx.com申诉。结合平台的环境设置以及测试的运行时间，目前除中级题sort和ecdsa仍使用vitis flow以外，其余6题均使用vivado flow。
 <br/>
 <br/>
 Q16：初级题Sobel filter中总Gradient如何得到？
