@@ -43,7 +43,7 @@ int main(int argc, const char* argv[]) {
     numOdata >> numVertices;
     numOdata >> numVertices;
 
-    unsigned* offset32 = aligned_alloc<unsigned>(numVertices + 1);
+    unsigned* offset32 = aligned_alloc<unsigned>(INTERFACE_MEMSIZE);
     while (offsetfstream.getline(line, sizeof(line))) {
         std::stringstream data(line);
         data >> offset32[index];
@@ -62,8 +62,8 @@ int main(int argc, const char* argv[]) {
     std::stringstream numCdata(line);
     numCdata >> numEdges;
 
-    unsigned* column32 = aligned_alloc<unsigned>(numEdges);
-    float* weight32 = aligned_alloc<float>(numEdges);
+    unsigned* column32 = aligned_alloc<unsigned>(INTERFACE_MEMSIZE);
+    float* weight32 = aligned_alloc<float>(INTERFACE_MEMSIZE);
     while (columnfstream.getline(line, sizeof(line))) {
         std::stringstream data(line);
         data >> column32[index];
@@ -71,7 +71,7 @@ int main(int argc, const char* argv[]) {
         index++;
     }
 
-    unsigned* mst = aligned_alloc<unsigned>(numVertices);
+    unsigned* mst = aligned_alloc<unsigned>(INTERFACE_MEMSIZE);
 
     unsigned* tmp0 = aligned_alloc<unsigned>(INTERFACE_MEMSIZE);
     unsigned* tmp1 = aligned_alloc<unsigned>(INTERFACE_MEMSIZE);
@@ -90,8 +90,12 @@ int main(int argc, const char* argv[]) {
 
     dut(numVertices, numEdges, offset32, column32, weight32, mst, tmp0, tmp1, tmp2, tmp3);
 
+    bool* edge_color = aligned_alloc<bool>(numEdges);
+    memset(edge_color, 0, numEdges);
+
     unsigned err = 0;
     float total = 0.0;
+    unsigned edge_cnt = 0;
     for (int i = 0; i < numVertices; i++) {
         if (mst[i] == -1) {
             std::cout << "vertex " << i << " not connected with the tree." << std::endl;
@@ -101,15 +105,25 @@ int main(int argc, const char* argv[]) {
         unsigned end = offset32[mst[i] + 1];
         bool found = false;
         for (unsigned j = start; j < end; j++) {
-            if (column32[j] == mst[mst[i]]) {
-                total = total + weight32[j];
+            if (column32[j] == i) {
+                if (mst[i] != i) {
+                    total = total + weight32[j];
+                }
                 found = true;
+                if (edge_color[j] == false && mst[i] != i) {
+                    edge_color[j] = true;
+                    edge_cnt++;
+                }
             }
         }
         if (!found) {
             err++;
             std::cout << "edge not found " << mst[mst[i]] << " " << mst[i] << std::endl;
         }
+    }
+
+    if (edge_cnt != numVertices - 1) {
+        err++;
     }
     std::cout << "f784c8c0 total mst weight: " << total << std::endl;
 
