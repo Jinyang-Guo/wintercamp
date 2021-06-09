@@ -1,58 +1,24 @@
-#
-# Copyright 2019-2020 Xilinx, Inc.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
+set Project     "color.prj"
+set Solution    solution1
+set Device      "xcu50-fsvh2104-2-e"
+set Flow        "vivado"
+set Clock       10
 
-set XPART xcu50-fsvh2104-2-e
-set CSIM 1
-set CSYNTH 1
-set COSIM 1
+open_project $Project -reset
 
-
-set PROJ "color.prj"
-set SOLN "solution1"
-
-if {![info exists CLKP]} {
-  set CLKP 3.33
-}
-
-open_project -reset $PROJ
+set_top dut
 
 add_files "top.cpp" -cflags "-I./"
 add_files -tb "test.cpp" -cflags "-I./"
 add_files -tb "./data/data-csr-offset.mtx"
 add_files -tb "./data/data-csr-indicesweights.mtx"
-#set_top dut
 
-open_solution -reset $SOLN
+open_solution -flow_target $Flow -reset $Solution
+set_part $Device
+create_clock -period $Clock
 
-
-
-
-set_part $XPART
-create_clock -period $CLKP
-
-if {$CSIM == 1} {
-  csim_design
-}
-
-if {$CSYNTH == 1} {
-  csynth_design
-}
-
-if {$COSIM == 1} {
-  cosim_design
-}
+csim_design
+csynth_design
+cosim_design
 
 exit
