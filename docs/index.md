@@ -2,14 +2,16 @@
 
 ![](./images/cover_new2.JPG)
 
-CCF TCARCH- 计算机体系结构挑战赛是中国计算机学会体系结构专委会所举办的旨在挖掘计算机体系结构人才、激发学生对计算机体系结构的研究兴趣、培养学生创新精神的一项全国赛事。
+**CCF TCARCH-** 计算机体系结构挑战赛是中国计算机学会体系结构专委会所举办的旨在挖掘计算机体系结构人才、激发学生对计算机体系结构的研究兴趣、培养学生创新精神的一项全国赛事。
 
 Customized Computing Challenge (**CCC** 定制计算算法实现挑战赛)由CCF 体系结构专委主办，北京大学CECA和Xilinx学术合作部联合承办，北大信息技术高等研究院协办。
 是首次发起的基于HLS的算法到硬件实现编程挑战赛，不仅考察编程能力还考察算法硬件实现能力。比赛采用与ACM编程和学生超算比赛类似赛制，题目分初级、中级、高级，闯关制积分，循序渐进，每队不超过2人，展示个人同时鼓励合作。
 
-CCC2022决赛将于2022年xx月xx日与CCF TCARCH Advanced Parallel Processing Technology ([**APPT2021**](https://appt2021.github.io/)) 以及首届 CCF计算机系统大会 ([**CCFSYS2021**](http://ccfsys2021.zhejianglab.com/index.html)) 联合举办
+CCC2022决赛将于2022年xx月xx日与CCF TCARCH Advanced Parallel Processing Technology  联合举办
 
-**注：2021年4月28日开放报名和发布**
+<!-- ([**APPT2021**](https://appt2021.github.io/)) 以及首届 CCF计算机系统大会 ([**CCFSYS2021**](http://ccfsys2021.zhejianglab.com/index.html)) -->
+
+**注：2022年4月11日开放报名和发布**
 
 <a href="https://xupsh.github.io/ccc2021/upload.html"><font size="6" ><strong>点击报名</strong></font></a>
 
@@ -40,4 +42,4 @@ CCC2022决赛将于2022年xx月xx日与CCF TCARCH Advanced Parallel Processing T
 2022年xx月xx日开放设计提交后，此处显示参赛者的实时成绩排名
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Xilinx</p>
