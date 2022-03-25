@@ -26,4 +26,4 @@ We welcome contributions related to XACC in the following areas:
 * Finally, you can email us with your contribution <xup@xilinx.com> use XACC Contributing as subject.
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Xilinx</p>

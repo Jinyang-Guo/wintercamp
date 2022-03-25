@@ -34,4 +34,4 @@ This following books may also be relevant in the context of XACC and compute acc
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Xilinx</p>

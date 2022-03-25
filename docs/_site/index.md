@@ -68,4 +68,4 @@ CCF TCARCH -- HLS算法实现挑战赛（计算机体系结构挑战赛）是中
 这里显示参赛者的实时成绩排名
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Xilinx</p>

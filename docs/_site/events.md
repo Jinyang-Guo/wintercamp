@@ -12,4 +12,4 @@ Upcoming and past public events related to the XACCs will be posted here.
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Xilinx</p>

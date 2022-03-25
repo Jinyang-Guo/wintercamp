@@ -17,4 +17,4 @@ In terms of networking communication, each Alveo cards has two 100 Gbps interfac
 > Note: hardware and network configuration can change at any time
 
 ---
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Xilinx</p>

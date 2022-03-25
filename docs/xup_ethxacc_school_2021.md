@@ -30,4 +30,4 @@ The Vitis and PYNQ prerecorded presentation and slides can be found in the [XUP 
 </table>
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Xilinx</p>
