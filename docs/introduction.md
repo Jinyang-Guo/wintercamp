@@ -12,17 +12,25 @@ Customized Computing Challenge (CCC 定制计算算法实现挑战赛)由CCF 体
 
 ![](./images/timeline.png)
 
-xx月xx日    发布并开放平台测试
+4月18日发布
 
-xx月xx日    开放题目设计提交
+4月28日发布培训和赛事介绍
 
-xx月xx日    题目截止提交
+**5-6月选拔赛**
 
-xx月xx日   审核成绩，确认入围决赛队伍
+5月5日（暂定）开放作品提交
 
-xx月xx日左右  发布决赛评审细节
+6月5日（暂定）截止提交
 
-xx月xx日左右  TBD
+6月11日发布预决赛名单（top 10%）
+
+8月决赛
+
+选拔赛成绩占 **30%**
+
+决赛成绩占 **70%**
+
+
 
 <a href="https://xupsh.github.io/ccc2021/upload.html"><font size="5" ><strong>点击报名</strong></font></a>
 
