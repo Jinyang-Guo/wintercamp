@@ -26,7 +26,7 @@ Customized Computing Challeng (CCC 定制计算算法实现挑战赛) 由CCF 体
 
 8月决赛
 
-除赛成绩占 **70%**
+初赛成绩占 **70%**
 
 决赛成绩占 **30%**
 
