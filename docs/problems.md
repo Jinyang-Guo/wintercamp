@@ -5,54 +5,57 @@
 
 ### 初级题 2题必做 （基本算子单元的实现)
 
-1.Fast Fourier transform 
+1. CORDIC
+  > CORDIC (for COordinate Rotation DIgital Computer) is a simple and efficient algorithm to calculate trigonometric functions, hyperbolic functions, square roots, multiplications, divisions, and exponentials and logarithms with arbitrary base, typically converging with one digit (or bit) per iteration.
 
-  > Fast Fourier transform is an algorithm that computes the discrete Fourier transform (DFT) of a sequence, or its inverse (IDFT). FFT rapidly computes transformations by factorizing the DFT matrix into a product of sparse (mostly zero) factors.
   >
-  > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/fft)
+  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/CORDIC)
 
-2.Sobel Filter
-  > Sobel filter is widely used in image processing and computer vision, particularly within edge detection algorithms where it creates an image emphasising edges. Discrete differentiation operator computes an approximation of the gradient of the image intensity function.
+
+2. DFT
+
+  > DFT is a common operation in signal processing which generates a discrete frequency domain representation of the discrete input signal. The input signal is a vector of samples and the matrix is a set of basis functions corresponding to discrete cosine and sine waveforms of different frequencies. The multiplication of the input signal with these basis functions describes how well the input signal correlates with those waveforms, which is the value of the Fourier series at that frequency.
+
+
   >
-  > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/sobel)
+  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/DFT)
 
-### 中级题 3题选2 （已有参考代码的优化)
+3. FAST
 
-1.Sign of curve Secp256k1, Elliptic Curve Digital Signature Algorithm  
+  > Features from accelerated segment test (FAST) is a corner detection method, which could be used to extract feature points and later used to track and map objects in many computer vision tasks. FAST corner detector uses a circle of 16 pixels (a Bresenham circle of radius 3) to classify whether a candidate point p is actually a corner. 
+  >
+  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/FAST)
 
-  > Elliptic Curve Digital Signature Algorithm (ECDSA) is a variant of Digital Signature Algorithm which utilize elliptic curve cryptography.   
-  > 
-  > [**Details**](https://github.com/xupsh/ccc2021/tree/main/problems/ecdsa)
+4. Harris
 
-2.Prediction of SVM Model
-  > SVM (Support Vector Machine) is a deep learning model to predict sample’s classification. Give an already trained SVM model, implement the associated prediction.
-  >   
-  > [**Details**](https://github.com/xupsh/ccc2021/tree/main/problems/svm)
+  > The Harris affine detector can identify similar regions between images that are related through affine transformations and have different illuminations. At a corner, the image intensity will change largely in multiple directions. Harris examines the changes of intensity due to shifts in a local window and uses the second moment matrix as the basis of its corner decisions.
+  >
+  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/Harris)
 
-3.Sort
-  > Sort a list of input integers into a specific sequence (increase or decrease).
-  > 
-  > [**Details**](https://github.com/xupsh/ccc2021/tree/main/problems/sort)
+5. Canny
+
+  > The Canny edge detector is an edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images. 
+  > + Apply Gaussian filter to smooth the image in order to remove the noise. Find the intensity gradients of the image
+  > + Apply gradient magnitude thresholding or lower bound cut-off suppression to get rid of spurious response to edge detection
+  > + Apply double threshold to determine potential edges
+  > + Track edge by hysteresis: Finalize the detection of edges by suppressing all the other edges that are weak and not connected to strong edges.
+  >
+  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/Canny)
 
 
 ### 高级题 3题选1（不提供参考代码，5月15日后发布评测细节）
 
-1.Minimum Spanning Tree  
-  > A minimum spanning tree is a subset of the edges of a weighted graph that connects all the vertices together. without any cycles and with the minimum possible total weight.
+1. Graph
+  
+  > Betweenness is a graph analysis algorithm. It represents the degree to which nodes stand between each other. For every pair of vertices in a connected graph, there exists at least one shortest path between the vertices such that either the number of edges that the path passes through (for unweighted graphs) or the sum of the weights of the edges (for weighted graphs) is minimized. The betweenness centrality for each vertex is the number of these shortest paths that pass through the vertex.
   >
-  > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/mst)
+  > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/Graph)
 
-2.K-1 Coloring
-  >The K-1 Coloring algorithm assigns a color to every node in the graph, trying to optimize for two objectives:  
-  > - To make sure that every neighbor of a given node has a different color than the node itself. 
-  > - To use as few colors as possible.
+2.Big Data Analysis
+  > The serialization is usually used in the Big Data analysis to convert data into portable structure. It is the process of converting data object into a stream of bytes or binary format that is easy to transmit or store. The target serialized format is Arrow IPC defined in open-sourced Apache Arrow project and can be found in the following link: https://github.com/apache/arrow/blob/master/docs/source/format/Columnar.rst#serialization-and-interprocess-communication-ipc
   >
   > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/color)
 
-3.Estimated Diameter
-  > The diameter of a graph is the greatest distance between any pair of vertices. The estimated diameter problem tries to find a distance that is close to the graph diameter as much as possible.
-  >
-  > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/diameter)
 
 
 <!--
