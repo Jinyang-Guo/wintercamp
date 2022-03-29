@@ -7,7 +7,7 @@
 Customized Computing Challenge (**CCC** 定制计算算法实现挑战赛)由CCF 体系结构专委主办，北京大学CECA和Xilinx学术合作部联合承办，北大信息技术高等研究院协办。
 是首次发起的基于HLS的算法到硬件实现编程挑战赛，不仅考察编程能力还考察算法硬件实现能力。比赛采用与ACM编程和学生超算比赛类似赛制，题目分初级、中级、高级，闯关制积分，循序渐进，每队不超过2人，展示个人同时鼓励合作。
 
-CCC2022决赛将于2022年xx月xx日与CCF TCARCH Advanced Parallel Processing Technology  联合举办
+CCC2022决赛将于2022年8月与CCF TCARCH Advanced Parallel Processing Technology  联合举办
 
 <!-- ([**APPT2021**](https://appt2021.github.io/)) 以及首届 CCF计算机系统大会 ([**CCFSYS2021**](http://ccfsys2021.zhejianglab.com/index.html)) -->
 
