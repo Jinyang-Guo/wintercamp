@@ -11,7 +11,7 @@ CCC2022决赛将于2022年8月与CCF TCARCH Advanced Parallel Processing Technol
 
 <!-- ([**APPT2021**](https://appt2021.github.io/)) 以及首届 CCF计算机系统大会 ([**CCFSYS2021**](http://ccfsys2021.zhejianglab.com/index.html)) -->
 
-**注：2022年4月11日开放报名和发布**
+**注：2022年4月18日开放报名和发布**
 
 <a href="https://xupsh.github.io/ccc2021/upload.html"><font size="6" ><strong>点击报名</strong></font></a>
 
@@ -27,7 +27,7 @@ CCC2022决赛将于2022年8月与CCF TCARCH Advanced Parallel Processing Technol
 
 ## 竞赛流程
 
-![](./images/ccc2021timeline.PNG)
+![](./images/timeline2022.jpg)
 
 ## 优秀作品
 
