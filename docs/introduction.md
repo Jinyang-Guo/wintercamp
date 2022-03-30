@@ -1,6 +1,6 @@
 # 竞赛介绍
 
-![](./images/cover_new2.JPG)
+![](./images/cover2022.jpg)
 
 CCF TCARCH- 计算机体系结构挑战赛是中国计算机学会体系结构专委会所举办的旨在挖掘计算机体系结构人才、激发学生对计算机体系结构的研究兴趣、培养学生创新精神的一项全国赛事。
 
@@ -10,7 +10,7 @@ Customized Computing Challeng (CCC 定制计算算法实现挑战赛) 由CCF 体
 
 # 竞赛日程
 
-![](./images/timeline.png)
+![](./images/timeline2022.jpg)
 
 4月18日发布
 
