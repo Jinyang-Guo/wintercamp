@@ -29,9 +29,9 @@
 
 <!--## 作品提交的入口如下：-->
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2021年5月15日开放作品提交通道**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2021年5月05日开放作品提交通道**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2021年6月21日关闭作品提交通道**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2021年6月05日关闭作品提交通道**
 
 >
 >
