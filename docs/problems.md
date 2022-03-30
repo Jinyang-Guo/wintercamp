@@ -45,14 +45,14 @@
 
 ### 高级题 3题选1（不提供参考代码，5月15日后发布评测细节）
 
-1. Graph
+1. **Graph:** Betweenness
   
   > Betweenness is a graph analysis algorithm. It represents the degree to which nodes stand between each other. For every pair of vertices in a connected graph, there exists at least one shortest path between the vertices such that either the number of edges that the path passes through (for unweighted graphs) or the sum of the weights of the edges (for weighted graphs) is minimized. The betweenness centrality for each vertex is the number of these shortest paths that pass through the vertex.
-  >
+  > A reference implementation of the betweenness calculation can be found at: [**reference**](https://gitenterprise.xilinx.com/qianqiao/ccc2021/blob/main/problems/betweenness/test.cpp#L84)
   > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/Graph)
 
-2.Big Data Analysis
-  > The serialization is usually used in the Big Data analysis to convert data into portable structure. It is the process of converting data object into a stream of bytes or binary format that is easy to transmit or store. The target serialized format is Arrow IPC defined in open-sourced Apache Arrow project and can be found in the following link: https://github.com/apache/arrow/blob/master/docs/source/format/Columnar.rst#serialization-and-interprocess-communication-ipc
+2. **Big Data:** Serialization
+  > The serialization is usually used in the Big Data analysis to convert data into portable structure. It is the process of converting data object into a stream of bytes or binary format that is easy to transmit or store. The target serialized format is Arrow IPC defined in open-sourced Apache Arrow project and can be found in the following link: [**reference**] https://github.com/apache/arrow/blob/master/docs/source/format/Columnar.rst#serialization-and-interprocess-communication-ipc
   >
   > [**Details**](https://github.com/xupsh/CCC2021/tree/main/problems/color)
 
