@@ -6,6 +6,7 @@
 ### 初级题 2题必做 （基本算子单元的实现)
 
 1. CORDIC
+
   > CORDIC (for COordinate Rotation DIgital Computer) is a simple and efficient algorithm to calculate trigonometric functions, hyperbolic functions, square roots, multiplications, divisions, and exponentials and logarithms with arbitrary base, typically converging with one digit (or bit) per iteration.
 
   >
