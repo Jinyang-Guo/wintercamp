@@ -2,20 +2,19 @@
 
 ## 往届优秀作品
 
-#### CCC2021风采
+### CCC2021风采
 
-
+#### CCC2021初赛
 <div style="position: relative; padding: 30% 45%;">
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://www.bilibili.com/video/BV1wu411X7EH?spm_id_from=333.337.search-card.all.click" frameborder="no" scrolling="no"></iframe>
 </div>
 
+#### CCC2021决赛
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://www.bilibili.com/video/BV1db4y147FC?spm_id_from=333.337.search-card.all.click" frameborder="no" scrolling="no"></iframe>
+</div>
 
 
-
-
-[初赛队伍分享](https://www.bilibili.com/video/BV1wu411X7EH?spm_id_from=333.337.search-card.all.click)
-
-[决赛队伍分享](https://www.bilibili.com/video/BV1db4y147FC?spm_id_from=333.337.search-card.all.click)
 
 ## 竞赛专属培训
 
