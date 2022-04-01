@@ -10,7 +10,7 @@
   > CORDIC (for COordinate Rotation DIgital Computer) is a simple and efficient algorithm to calculate trigonometric functions, hyperbolic functions, square roots, multiplications, divisions, and exponentials and logarithms with arbitrary base, typically converging with one digit (or bit) per iteration.
 
   >
-  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/CORDIC)
+  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/cordic)
 
 
 2. DFT
@@ -25,13 +25,13 @@
 
   > Features from accelerated segment test (FAST) is a corner detection method, which could be used to extract feature points and later used to track and map objects in many computer vision tasks. FAST corner detector uses a circle of 16 pixels (a Bresenham circle of radius 3) to classify whether a candidate point p is actually a corner. 
   >
-  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/FAST)
+  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/fast)
 
 4. Harris
 
   > The Harris affine detector can identify similar regions between images that are related through affine transformations and have different illuminations. At a corner, the image intensity will change largely in multiple directions. Harris examines the changes of intensity due to shifts in a local window and uses the second moment matrix as the basis of its corner decisions.
   >
-  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/Harris)
+  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/harris)
 
 5. Canny
 
@@ -41,7 +41,7 @@
   > + Apply double threshold to determine potential edges
   > + Track edge by hysteresis: Finalize the detection of edges by suppressing all the other edges that are weak and not connected to strong edges.
   >
-  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/Canny)
+  > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/canny)
 
 
 ### 高级题 2题选1（不提供参考代码，5月15日后发布评测细节）
