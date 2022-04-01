@@ -3,7 +3,9 @@
 ## **初赛题目**
 - 所有题目不需要生成bit文件，完成co-sim仿真即可
 
-### 初级题 2题必做 （基本算子单元的实现)
+### 基础题 
+
+#### DSP （必做1题，2选1）
 
 1. CORDIC
 
@@ -21,19 +23,21 @@
   >
   > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/DFT)
 
-3. FAST
+#### CV （必做1题，3选1）
+
+1. FAST
 
   > Features from accelerated segment test (FAST) is a corner detection method, which could be used to extract feature points and later used to track and map objects in many computer vision tasks. FAST corner detector uses a circle of 16 pixels (a Bresenham circle of radius 3) to classify whether a candidate point p is actually a corner. 
   >
   > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/fast)
 
-4. Harris
+2. Harris
 
   > The Harris affine detector can identify similar regions between images that are related through affine transformations and have different illuminations. At a corner, the image intensity will change largely in multiple directions. Harris examines the changes of intensity due to shifts in a local window and uses the second moment matrix as the basis of its corner decisions.
   >
   > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/harris)
 
-5. Canny
+3. Canny
 
   > The Canny edge detector is an edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images. 
   > + Apply Gaussian filter to smooth the image in order to remove the noise. Find the intensity gradients of the image
