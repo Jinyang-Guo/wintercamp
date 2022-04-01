@@ -61,4 +61,4 @@ If you would like to contribute to this page by adding a reference to your publi
 | FINN: A Framework for Fast, Scalable Binarized Neural Network Inference  | Yaman Umuroglu *et al.*  | Xilinx Inc.| [FINN Paper](https://arxiv.org/abs/1612.07119) | Framework for Binarized Neural networks on reconfigurable hardware |
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD-Xilinx</p>

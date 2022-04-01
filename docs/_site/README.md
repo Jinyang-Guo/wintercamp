@@ -37,4 +37,4 @@ CCF TCARCH -- HLS算法实现挑战赛（计算机体系结构挑战赛）是中
 决赛成绩占 **70%**
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD-Xilinx</p>

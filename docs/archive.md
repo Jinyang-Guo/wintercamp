@@ -37,4 +37,4 @@
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD-Xilinx</p>

@@ -38,4 +38,4 @@ PYNQ Alveo examples can be found on the [PYNQ community](http://www.pynq.io/comm
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD-Xilinx</p>

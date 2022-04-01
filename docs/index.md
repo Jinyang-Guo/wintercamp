@@ -7,7 +7,7 @@
 Customized Computing Challenge (**CCC** 定制计算算法实现挑战赛)由CCF 体系结构专委主办，北京大学CECA和AMD-Xilinx学术合作部联合承办，北大信息技术高等研究院协办。
 是首次发起的基于HLS的算法到硬件实现编程挑战赛，不仅考察编程能力还考察算法硬件实现能力。比赛采用与ACM编程和学生超算比赛类似赛制，题目分基础题和高级题，闯关制积分，循序渐进，每队不超过2人，展示个人同时鼓励合作。
 
-CCC2022决赛将于2022年8月举办
+CCC2022决赛将于2022年7月底8月初举办
 
 <!-- 与CCF TCARCH Advanced Parallel Processing Technology   -->
 <!-- ([**APPT2021**](https://appt2021.github.io/)) 以及首届 CCF计算机系统大会 ([**CCFSYS2021**](http://ccfsys2021.zhejianglab.com/index.html)) -->
@@ -30,16 +30,11 @@ CCC2022决赛将于2022年8月举办
 
 ![](./images/timeline2022.jpg)
 
-## 优秀作品
-
-### 总分奖项
+## 优秀奖项
 
 - 第一名 总分第1名，10,000元（队员）， Alveo加速卡或MPSOC（指导教师*）
 - 第二名 总分第2名，5,000元 （队员），Alveo加速卡或MPSOC(指导教师*)
 - 第三名 总分第3名，3,000元（队员），Alveo加速卡或MPSOC(指导教师*)
-
-### 高级题单项奖
-
 - Graph题冠军，5,000（队员）
 - Big Data题冠军，5,000（队员）
 
@@ -60,4 +55,4 @@ CCC2022决赛将于2022年8月举办
 2022年05月05日（暂定）开放设计提交后，此处显示参赛者的实时成绩排名
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD-Xilinx</p>

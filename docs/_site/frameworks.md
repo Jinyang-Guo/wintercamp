@@ -59,4 +59,4 @@ Fully integrated framework that allows to speedup your C/C++, Python, Java and S
 Universities can also access to InAccel technology [InAccel University](https://inaccel.com/university/)
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD-Xilinx</p>
