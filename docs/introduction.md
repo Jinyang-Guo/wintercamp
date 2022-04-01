@@ -20,4 +20,4 @@ Customized Computing Challeng (CCC 定制计算算法实现挑战赛) 由CCF 体
 
 
 
-![](./images/feature_1.png)
+![](./images/feature.jpg)
