@@ -59,7 +59,7 @@
 
 2.**Big Data:** Serialization
 
-  > The serialization is usually used in the Big Data analysis to convert data into portable structure. It is the process of converting data object into a stream of bytes or binary format that is easy to transmit or store. The target serialized format is Arrow IPC defined in open-sourced Apache Arrow project and can be found in the following link: [**reference**] https://github.com/apache/arrow/blob/master/docs/source/format/Columnar.rst#serialization-and-interprocess-communication-ipc
+  > The serialization is usually used in the Big Data analysis to convert data into portable structure. It is the process of converting data object into a stream of bytes or binary format that is easy to transmit or store. The target serialized format is Arrow IPC defined in open-sourced Apache Arrow project and can be found in the following link: [**reference**](https://github.com/apache/arrow/blob/master/docs/source/format/Columnar.rst#serialization-and-interprocess-communication-ipc)
   >
   > [**Details**](https://github.com/Jinyang-Guo/CCC/tree/main/problems/serialization)
 
