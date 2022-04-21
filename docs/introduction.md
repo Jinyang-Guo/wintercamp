@@ -1,23 +1,7 @@
-# 竞赛介绍
+# Winter Camp
+AMD-Xilinx冬令营*由CCF体系结构专委会主办，北京大学高能效计算与应用中心与Xilinx学术合作联合承办。
+北京大学，清华大学，计算所，浙江大学，北京工业大学，Xilinx等来自学术界工业界多位学者和资深工程师分享研讨了定制计算的前沿方向。
+本次冬令营同时也介绍了Xilinx Adaptive Compute Clusters（XACC)，以下为XACC项目的链接：
 
-![](./images/cover2022.jpg)
-
-CCF TCARCH- 计算机体系结构挑战赛是中国计算机学会体系结构专委会所举办的旨在挖掘计算机体系结构人才、激发学生对计算机体系结构的研究兴趣、培养学生创新精神的一项全国赛事。
-
-Customized Computing Challeng (CCC 定制计算算法实现挑战赛) 由CCF 体系结构专委主办，AMD-Xilinx学术合作部及北京大学CECA联合承办，是首次发起的基于HLS的算法到硬件实现编程挑战赛，不仅考察编程能力还考察算法硬件实现能力。比赛采用与ACM编程和学生超算比赛类似赛制，题目分基础题和高级题，闯关制积分，循序渐进，每队不超过2人，展示个人同时鼓励合作。
-
-本次比赛提供参与世界顶尖的学者和领先公司充分交流的机会。同时提供丰厚奖金、丰富的实验平台。这是继定制计算冬令营后的又一特色活动，体现学术界与工业界联合在开源开放的平台上支持人才培养。
-
-# 竞赛日程
-
-![](./images/timeline2022.jpg)
-
-
-
-
-
-<a href="https://xupsh.github.io/ccc2021/upload.html"><font size="5" ><strong>点击报名</strong></font></a>
-
-
-
-![](./images/feature.jpg)
+![Xilinx Adaptive Compute Clusters](https://xilinx.github.io/xacc/)
+Agenda
