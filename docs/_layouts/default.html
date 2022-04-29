@@ -21,24 +21,7 @@
 
         <ul>
             <li><a href="index.html"><div align="center">首页</div></a></li>
-            <li><a href="ranking.html"><div align="center">成绩排名</div></a></li>
         </ul>
-
-        <span style="color:white; font-size: 18px;"><div align="center">竞赛信息</div></span>  
-        <ul>
-            {% for item in site.data.competition_infor_sidebar.docs %}
-              <li><a href="{{ item.url }}"><div align="center">{{ item.title }}</div></a></li>
-            {% endfor %}
-        </ul>
-
-        <span style="color:white; font-size: 18px;"><div align="center">资源</div></span>  
-        <ul>
-            {% for item in site.data.resources_sidebar.docs %}
-              <li><a href="{{ item.url }}"><div align="center">{{ item.title }}</div></a></li>
-            {% endfor %}
-        </ul>
-
-      </header>
       <section>
         {{ content }}
       </section>
