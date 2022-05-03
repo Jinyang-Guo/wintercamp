@@ -7,7 +7,7 @@ AMD-Xilinx冬令营*由CCF体系结构专委会主办，北京大学高能效计
 本次冬令营同时也介绍了Xilinx Adaptive Compute Clusters（XACC)，以下为XACC项目的链接：
 
 
-<a href="https://xilinx.github.io/xacc/"><font size="6" ><strong>Xilinx Adaptive Compute Clusters</strong></font></a>
+<a href="https://xilinx.github.io/xacc/"><font size="3" ><strong>Xilinx Adaptive Compute Clusters</strong></font></a>
 
 
 **注：2022年4月18日开放报名和发布**
