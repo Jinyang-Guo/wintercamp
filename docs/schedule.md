@@ -2,42 +2,43 @@
 layout: default
 ---
 
-# Presentations
+# 日程安排
 
-## Vitis
+## Agenda
 
-| Title | YouTube Link | PDF Link |
-| --- | --- | ---- |
-| Xilinx Platforms Introduction | [![alt text](assets/images/youtube.png) Xilinx Platforms Introduction](https://youtu.be/sb9qcgOcTDY) | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/xilinx_platforms_introduction.pdf) |
-| Intro to Vitis for Acceleration Platforms | [![alt text](assets/images/youtube.png) Intro to Vitis for Acceleration Platforms](https://youtu.be/t6CvKG0NzcM) | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/vitis_introduction.pdf) |
-| Vitis Tool Flow | [![alt text](assets/images/youtube.png) Vitis Tool Flow](https://youtu.be/ObfOSltWWEM) | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/vitis_toolflow.pdf) |
-| Open CL Execution Model | [![alt text](assets/images/youtube.png) Open CL Execution Model](https://youtu.be/z1Yk6jctJeY) | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/vitis_opencl_execution_model.pdf) |
-| Vitis Design Analysis | [![alt text](assets/images/youtube.png) Vitis Design Analysis](https://youtu.be/N941PGe9q_c) | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/vitis_design_analysis.pdf) |
-| Vitis Design Methodology | [![alt text](assets/images/youtube.png) Vitis Design Methodology](https://youtu.be/W-O66ASW_ls) | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/vitis_design_methodology.pdf) |
-| Host Code Optimization | [![alt text](assets/images/youtube.png) Host Code Optimization](https://youtu.be/6SqQ-tgMREg) | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/vitis_host_code_optimization.pdf) |
-| Kernel Optimization | [![alt text](assets/images/youtube.png) Kernel Optimization](https://youtu.be/BD7nXF0umpo) | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/vitis_kernel_optimizations.pdf) |
-| Vitis Accelerated Libraries | [![alt text](assets/images/youtube.png) Vitis Accelerated Libraries](https://youtu.be/bqttBaih_Ao) | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/vitis_accelerated_libraries.pdf) |
-| Vitis hardware debug |   | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/vitis_hardware_debug.pdf)|
-| Vitis RTL kernels Accelerated Libraries  |   | [![alt text](images/pdf.png)](https://www.xilinx.com/support/documentation/university/Vitis-Workshops/2019_2/vitis_rtl_kernels.pdf) |
+| **模块** | **时间**             | **内容**                             | 备注                                                         |
+| -------- | -------------------- | ------------------------------------ | ------------------------------------------------------------ |
+| 1        | 1月10-12日 每天2小时 | Vitis HLS 入门（选听）               | 对HLS，计算机体系结构不熟悉的学员                            |
+|          | 1月10日晚 8点        | HLS 设计原则入门                     |                                                              |
+|          | 1月11日 白天         | 自行安排观看已录制Vivado HLS原理视频 |                                                              |
+|          | 1月11日晚8点         | 从Vivado HLS 到Vitis HLS设计流程     |                                                              |
+|          | 1月12日              | 自行完成实验                         | 实验链接 [HLS Hands-on Labs](https://github.com/xupgit/High-Level-Synthesis-Flow-on-Zynq-using-Vivado-HLS) [Vitis Hands-on Labs](https://xilinx.github.io/xup_compute_acceleration/) |
+|          | 1月13日 下午 2点     | Vitis 与Versal架构入门               |                                                              |
+| 2        | 1月14日              | 完成Vitis HLS 入门小测验             | 全部学员                                                     |
+| 3        | 1月17日 全天         | DAC, LPCV, CCC,XACC等获奖项目分享    | 全部学员                                                     |
+| 4        | 1月18日 开始         | 提供软硬件资源并指导完成科研项目尝试 | 项目计划获得批准的学员                                       |
 
-# PYNQ
+## Invite Talk
+### 1.17 上午
+| **时间**    | **题目**                                  | **报告人** | **学校**         |
+| ----------- | ----------------------------------------- | ---------- | ---------------- |
+| 9:30-9:50   | 基于神经网络的心肺音分离系统              | 李宗       | 武汉大学         |
+| 9:50-10:10  | 基于FPGA的一种抗量子数字签名加密          | 徐嘉睿     | 南方科技大学     |
+| 10:10-10:30 | 基于单目深度估计网络的全息显示终端        | 王瑞青     | 西安电子科技大学 |
+| 10:30-10:50 | 基于RISC-V的积木式可拼接图形化编程系统    | 郑健       | 成都信息工程大学 |
+| 10:50-11:10 | 基于边缘计算的低功耗全时空生态监控系统    | 贾凝心     | 西安邮电大学     |
+| 11:10-11:30 | 基于ZYNQ FPGA的高精度双目光学定位导航系统 | 邢傲然     | 南方科技大学     |
 
-PYNQ introduction, and short lab companion videos that cover topics that are not addressed in the main presentation. We recommend watching the lab while doing the PYNQ labs.
-
-| Title | YouTube Link |
-| --- | --- |
-| PYNQ for Compute Acceleration | [![alt text](assets/images/youtube.png) PYNQ for Compute Acceleration](https://youtu.be/WgA_FgO_rAo) |
-| Lab: Using Multiple Devices | [![alt text](assets/images/youtube.png) Lab: Using Multiple Devices](https://youtu.be/tk2XDW-Hpco)|
-| Lab: Hardware Emulation | [![alt text](assets/images/youtube.png) Lab: Hardware Emulation](https://youtu.be/ylVEo0d83iM)|
-| Lab: Packaging Your Designs | [![alt text](assets/images/youtube.png) Lab: Packaging Your Designs](https://youtu.be/S2oSliWHpsA)|
-
-## Overview of the Vitis flow
-
-![alt tag](./images/vitis_flow.png)
+### 1.17下午
+| **时间**    | **题目**                                                     | **报告人**     | **学校**          |
+| ----------- | ------------------------------------------------------------ | -------------- | ----------------- |
+| 14:00-14:30 | CCC比赛初赛第一名队伍分享                                    | 岑宗俊，赵宗耀 | 清华大学          |
+| 14:30-15:00 | CCC比赛冠军队伍分享                                          | 刘心哲，孙豪   | 上海科技大学      |
+| 15:00-15:30 | ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs | Hongshi Tan    | 新加坡国立大学    |
+| 15:30-16:00 | ICCV-LPCV 冠军队伍分享                                       | 龚睿昊         | 商汤科技/北京大学 |
+| 16:00-16:30 | 基于数据流的目标探测网络加速器DAC-SDC’21冠军队伍分享         | 姜伟雄         | 上海科技大学      |
 
 
-1. Vitis is the development environment used to create host applications and hardware accelerators. It includes host CPU and FPGA compilers as well as profiling and debugging tools
-2. In Vitis, the host application can be written in C or C++ and uses the OpenCL API or the [XRT](https://github.com/Xilinx/XRT) (Xilinx Runtime Library) to interact with the accelerated hardware functions running on the FPGA. The accelerated hardware functions (also referred to as 'hardware kernels', or just 'kernels') can be written in C, C++, OpenCL or RTL
 
 ---------------------------------------
 <p align="center">Copyright&copy; 2021 Xilinx</p>
