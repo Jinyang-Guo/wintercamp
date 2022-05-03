@@ -14,4 +14,4 @@ url:
 
 
 
-<a href="https://xupsh.github.io/ccc2021/upload.html"><font size="6" ><strong>点击报名</strong></font></a>
+<a href="https://xupsh.github.io/ccc2021/upload.html"><font size="4" ><strong>点击报名</strong></font></a>
