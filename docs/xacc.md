@@ -13,4 +13,4 @@ Xilinx Adaptive Compute Cluster是一项特殊的计划，旨在支持高性能�
 有关该程序以及如何申请的更多详细信息，请参见<a href="https://xilinx.github.io/xacc/">XACC官网</a>页面。
 <a href=""></a>
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD-Xilinx</p>

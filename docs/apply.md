@@ -118,4 +118,4 @@ source ~/.bashrc
 For more details see: https://github.com/aws/aws-fpga/blob/master/Vitis/README.md
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD-Xilinx</p>

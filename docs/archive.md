@@ -35,4 +35,4 @@ layout: default
 | 16:00-16:30 | 基于数据流的目标探测网络加速器DAC-SDC’21冠军队伍分享         | 姜伟雄         | 上海科技大学      |
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD-Xilinx</p>

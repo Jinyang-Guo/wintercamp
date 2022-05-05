@@ -290,4 +290,4 @@ The compute intensity ratio is defined as:
 The bigger this number is, the more opportunities to achieve acceleration.
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD-Xilinx</p>
