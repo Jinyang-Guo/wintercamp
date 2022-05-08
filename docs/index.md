@@ -16,9 +16,15 @@ AMD-Xilinx冬令营由CCF体系结构专委会主办，北京大学高能效计�
 ![](/images/DSC_6105.jpg)
 
 
+![](/images/DSC_6115.jpg)
+
+![](/images/IMG_20200113_100656.jpg)
+
+![](/images/IMG_20200113_100652.jpg)
+
 <a href="">2020年 Xilinx冬令营</a>
 
-<a href="">第二届 Xilinx冬令营</a>
+<a href="">2021年 Xilinx冬令营</a>
 
 ![](/images/winter_camp22.png)
 
